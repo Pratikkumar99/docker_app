@@ -103,7 +103,7 @@ docker-mongo-test/
 Use this MongoDB connection string in `server.js`:
 
 ```javascript
-mongodb://root:example123@localhost:27017/testdb?authSource=admin
+mongodb://root:pass@localhost:27017/testdb?authSource=admin
 ```
 
 Why `localhost`?
